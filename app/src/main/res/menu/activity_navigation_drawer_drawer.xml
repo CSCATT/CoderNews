@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vecherka"
+            android:icon="@drawable/vb"
+            android:title="Вечерний Бишкек" />
+        <item
+            android:id="@+id/vesty"
+            android:icon="@drawable/vesti"
+            android:title="Вести" />
+        <item
+            android:id="@+id/zanoza"
+            android:icon="@drawable/zanoza"
+            android:title="Заноза" />
+        <item
+            android:id="@+id/kg24n"
+            android:icon="@drawable/dch"
+            android:title="KG24" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Поделиться" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Написать" />
+        </menu>
+    </item>
+
+</menu>
